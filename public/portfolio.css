@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	width: 100vw;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 15pt;
+	background-color: #8DC0D9;
+	/*background-color: #0089FA;*/
+	overflow-x: hidden;
+	color: #181A1C;
+}
+
+#navbar {
+	display: table;
+	position: fixed;
+	margin: 0;
+	width: 100vw;
+	background-color: rgba(19, 22, 25, 0.9);
+	color: white;
+}
+
+#nav-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+#navbar a:hover {
+	color: #0072FA;
+}
+
+#brand {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin: 0;
+	color: white;
+	padding-left: 10px;
+}
+
+h1, h2, h4 {
+	color: #181A1C;
+}
+
+#navbar ul {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+#navbar li {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+#page-links {
+	display: inline-block;
+}
+
+#social-links {
+	float: right;
+	padding-right: 30px;
+	margin: 0;
+	display: inline;
+}
+
+#portfolio {
+    width: 80vw;
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+}
+
+#portfolio h1, h4 {
+    margin: 0;
+}
+
+.port-entry {
+    width: 100%;
+    height: 100%;
+}
+
+.port-img {
+    width: 100%;
+    height: 100%;
+}
+
+.site-link {
+    text-decoration: none;
+    color: #0072FA;
+}
+
+.site-link:hover {
+    color: #181A1C;
+}
+
+.description {
+    width: 50%;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 700px) {
+	#navbar {
+        width: 100vw;
+    }
+    
+    #nav-inner {
+        width: 50px;
+    }
+    
+	#brand {
+		text-align: center;
+		display: block;
+		font-size: .75em;
+		padding: 0;
+	}
+	
+	#navbar li {
+	    font-size: 12pt;
+	}
+	
+	#navbar ul {
+	    margin: auto;
+	}
+
+	#page-links {
+		display: block;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		float: none;
+		padding: 0;
+	}
+
+	#social-links {
+		visibility: hidden;
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	
+	.description {
+	    width: 80%;
+	}
+}

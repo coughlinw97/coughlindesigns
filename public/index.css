@@ -1,0 +1,301 @@
+body {
+	margin: 0;
+	width: 100vw;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 15pt;
+	background-color: #8DC0D9;
+	/*background-color: #0089FA;*/
+	overflow-x: hidden;
+	color: #181A1C;
+}
+
+#navbar {
+	display: table;
+	position: fixed;
+	margin: 0;
+	width: 100vw;
+	background-color: rgba(19, 22, 25, 0.9);
+	color: white;
+}
+
+#nav-inner {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+#navbar a:hover {
+	color: #0072FA;
+}
+
+#brand {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin: 0;
+	color: white;
+}
+
+h1, h4 {
+	color: #181A1C;
+}
+
+#navbar ul {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+#navbar li {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+#page-links {
+	display: inline-block;
+}
+
+#social-links {
+	float: right;
+	padding-right: 30px;
+	margin: 0;
+	display: inline-block;
+}
+
+#page-content {
+	width: 100vw;
+	margin: auto;
+}
+
+#banner {
+    height: 100vh;
+    width: 100%;
+    /*background-image: url(https://source.unsplash.com/KGDiNZg3Kxo/1920x1080);*/
+    background-image: url(https://source.unsplash.com/E0AHdsENmDg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    display: table;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn {
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0b67e0;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    font-size: 17px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: #181A1C;
+}
+
+#about {
+	width: 80vw;
+	height: 100vh;
+	margin: 10vh auto;
+	padding: 5vh 0 0 0;
+	text-align: center;
+	display: table;
+	font-size: 17pt;
+}
+
+/*#about div {
+	width: 100%;
+	margin: auto;
+}*/
+
+/*#about-content {
+	width: 100%;
+	height: 50vh;
+	display: block;
+	margin: auto;
+}*/
+
+#header {
+    font-size: 18pt;
+    /*width: 80%;*/
+    /*float: right;*/
+    /*display: table-cell;*/
+    vertical-align: middle;
+    /*margin: 10vh;*/
+    color: white;
+}
+
+.bold {
+    font-size: 22pt;
+    color: #181A1C;
+}
+
+#profile-pic {
+	width: 50%;
+	border-radius: 5px;
+	/*float: left;*/
+}
+
+hr {
+    border-color: #181A1C;
+    width: 70%;
+    border-bottom: none;
+}
+
+#services {
+	width: 100vw;
+	padding: 5vh 0;
+}
+
+#services-content {
+    width: 80%;
+    margin: 10vh auto;
+	text-align: center;
+}
+
+#services table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#services table th {
+	/*background-color: #0072FA;*/
+	background-color: #4D788C;
+	width: 33%;
+	color: white;
+}
+
+#services table td {
+	background-color: white;
+	width: 33%;
+	padding: 20px 0 20px 0;
+	color: #181A1C;
+}
+
+#services .odd {
+	background-color: #DBE2EB;
+}
+
+#services h2 {
+    color: black;
+}
+
+#contact {
+	width: 80vw;
+	margin: 10vh auto;
+	text-align: center;
+	color: #181A1C;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    border-radius: 0px;
+    border: 1px #d1d1d1 solid;
+    padding: 12pt;
+    color: #181A1C;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+textarea {
+    width: 80%;
+    border-radius: 0px;
+    border: 1px #d1d1d1 solid;
+    padding: 12pt;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    margin-right: 10%;
+    border: none;
+    background-color: #0b67e0;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 12pt;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+    float: right;
+}
+
+#submit:hover {
+    color: #181A1C;
+}
+
+@media screen and (max-width: 700px) {
+    #navbar {
+        width: 100vw;
+    }
+    
+    #nav-inner {
+        width: 50px;
+        padding: 0;
+    }
+    
+	#brand {
+		text-align: center;
+		display: block;
+		font-size: .75em;
+		padding: 0;
+	}
+	
+	#navbar li {
+	    font-size: 12pt;
+	}
+	
+	#navbar ul {
+	    margin: auto;
+	    padding: 0;
+	}
+
+	#page-links {
+		display: block;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		float: none;
+		padding: 0;
+	}
+
+	#social-links {
+		visibility: hidden;
+		display: none;
+	}
+	
+	#profile-pic {
+		margin: auto;
+		float: none;
+		width: 100%;
+	}
+
+	#header {
+		margin: auto;
+		float: none;
+		font-size: 15pt;
+	}
+
+}
